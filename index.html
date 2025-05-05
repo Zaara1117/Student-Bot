@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyPal - Your AI Study Buddy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        
+        #chatbox-container {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            border-radius: 16px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📚 StudyPal</h1>
+    <p>Your personal AI-powered assistant for organizing, planning, and succeeding in student life.</p>
+
+    <div id="chatbox-container">
+        <!-- Embed full chatbot, not bubble -->
+        <iframe src="https://www.chatbase.co/chatbot-iframe/o4wj8V5cvjfuu-bvS8-pP" allow="microphone; autoplay; clipboard-write"></iframe>
+    </div>
+
+    <div class="footer">Built for students</div>
+</body>
+
+</html>

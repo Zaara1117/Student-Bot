@@ -1,0 +1,24 @@
+# Ignore node_modules if you ever use Node.js or npm
+node_modules/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files (if any)
+.env
+
+# Ignore build and dist directories (if any)
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.swp
+*.swo
